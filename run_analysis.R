@@ -53,6 +53,6 @@ dataset <- data[, choosen_columns]
 tidy_dataset  <- ddply(dataset, .(Subject, Activity), numcolwise(mean))
 
 # save result
-save(tidy_dataset, file='tidy_dataset.rda')
+write.csv(x=tidy_dataset, file='tidy_dataset.csv')
 
 

@@ -48,4 +48,4 @@ Only the columns containing the strings *mean()* and *std()* were choosen, as th
 
 A final dataset was made using the *ddply* function of the *plyr* package. The dataset was grouped by the Subject and Activity columns and all the chosen variables were aggregated by the mean.
 
-This final dataset is saved into a file called *tidy_dataset.rda*.
+This final dataset is saved into a file called *tidy_dataset.csv*.
